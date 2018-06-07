@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#e7e7e7</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="textTint">#79ffffff</color>
+    <color name="iconTint">#81ffffff</color>
+    <color name="colorBlue">#4c96e9</color>
+    <color name="bgTint">#00000000</color>
+    <color name="bg2Tint">#000000</color>
+
+    <!-- Kalender -->
+    <color name="today_border">#e4e4e4</color>
+    <color name="today_background">#f7f7f7</color>
+    <color name="secundaryTextColor">#757575</color>
+    <color name="primaryTextColor">#4d4d4d</color>
+    <color name="colorHover">#30818181</color>
+
+    <color name="darkTangerine">#4d97e9</color>
+    <color name="darkTangerineTransparent">#c94d97e9</color>
+    <color name="butterCup">#D5971A </color>
+    <color name="greenWhite">#D4D4D3 </color>
+    <color name="anzac">#C38B44 </color>
+    <color name="superNova">#FFBF36 </color>
+    <color name="ivory">#F8F8F7 </color>
+
+    <color name="text_kalkulator">#717171</color>
+</resources>

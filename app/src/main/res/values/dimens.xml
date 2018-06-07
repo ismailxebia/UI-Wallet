@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="textmedium">18sp</dimen>
+
+    <dimen name="display_primary_text_port">56sp</dimen>
+    <dimen name="display_secondary_text_port">25dp</dimen>
+    <dimen name="panel_1_button_text_port">25sp</dimen>
+    <dimen name="panel_2_button_text_port">20sp</dimen>
+
+    <dimen name="display_primary_text_land">25sp</dimen>
+    <dimen name="display_secondary_text_land">25sp</dimen>
+    <dimen name="panel_1_button_text_land">24sp</dimen>
+    <dimen name="panel_2_button_text_land">20sp</dimen>
+    <dimen name="standard_margin">24dp</dimen>
+    <dimen name="touch_raise">4dp</dimen>
+
+    <dimen name="number_height">60dp</dimen>
+    <dimen name="number_width">60dp</dimen>
+    <dimen name="pass_height">10dp</dimen>
+    <dimen name="pass_width">10dp</dimen>
+</resources>

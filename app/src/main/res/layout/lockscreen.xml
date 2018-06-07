@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagelock"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic"
+        app:border_color="#9c32429b"
+        app:border_width="6dp" />
+
+    <LinearLayout
+        android:id="@+id/blank_fill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pass_1"
+            android:layout_width="@dimen/pass_width"
+            android:layout_height="@dimen/pass_height"
+            android:layout_margin="13dp"
+            android:background="@drawable/white_circular_border"
+            android:gravity="center"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/pass_2"
+            android:layout_width="@dimen/pass_width"
+            android:layout_height="@dimen/pass_height"
+            android:layout_margin="13dp"
+            android:background="@drawable/white_circular_border"
+            android:gravity="center"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/pass_3"
+            android:layout_width="@dimen/pass_width"
+            android:layout_height="@dimen/pass_height"
+            android:layout_margin="13dp"
+            android:background="@drawable/white_circular_border"
+            android:gravity="center"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/pass_4"
+            android:layout_width="@dimen/pass_width"
+            android:layout_height="@dimen/pass_height"
+            android:layout_margin="13dp"
+            android:background="@drawable/white_circular_border"
+            android:gravity="center"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.pixplicity.fontview.FontAppCompatTextView
+                android:id="@+id/no_1"
+                style="@style/FontTextViewStyle"
+                android:layout_width="@dimen/number_width"
+                android:layout_height="@dimen/number_height"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_circular_border"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#fff"
+                android:textSize="23dp" />
+
+            <com.pixplicity.fontview.FontAppCompatTextView
+                style="@style/FontTextViewStyle"
+                android:id="@+id/no_2"
+                android:layout_width="@dimen/number_width"
+                android:layout_height="@dimen/number_width"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_circular_border"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="#fff"
+                android:textSize="23dp" />
+
+            <com.pixplicity.fontview.FontAppCompatTextView
+                style="@style/FontTextViewStyle"
+                android:id="@+id/no_3"
+                android:layout_width="@dimen/number_width"
+                android:layout_height="@dimen/number_width"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_circular_border"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="#fff"
+                android:textSize="23dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.pixplicity.fontview.FontAppCompatTextView
+                style="@style/FontTextViewStyle"
+                android:id="@+id/no_4"
+                android:layout_width="@dimen/number_width"
+                android:layout_height="@dimen/number_width"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_circular_border"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="#fff"
+                android:textSize="23dp" />
+
+            <com.pixplicity.fontview.FontAppCompatTextView
+                style="@style/FontTextViewStyle"
+                android:id="@+id/no_5"
+                android:layout_width="@dimen/number_width"
+                android:layout_height="@dimen/number_width"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_circular_border"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="#fff"
+                android:textSize="23dp" />
+
+            <com.pixplicity.fontview.FontAppCompatTextView
+                style="@style/FontTextViewStyle"
+                android:id="@+id/no_6"
+                android:layout_width="@dimen/number_width"
+                android:layout_height="@dimen/number_width"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_circular_border"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="#fff"
+                android:textSize="23dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.pixplicity.fontview.FontAppCompatTextView
+                style="@style/FontTextViewStyle"
+                android:id="@+id/no_7"
+                android:layout_width="@dimen/number_width"
+                android:layout_height="@dimen/number_width"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_circular_border"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="#fff"
+                android:textSize="23dp" />
+
+            <com.pixplicity.fontview.FontAppCompatTextView
+                style="@style/FontTextViewStyle"
+                android:id="@+id/no_8"
+                android:layout_width="@dimen/number_width"
+                android:layout_height="@dimen/number_width"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_circular_border"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="#fff"
+                android:textSize="23dp" />
+
+            <com.pixplicity.fontview.FontAppCompatTextView
+                style="@style/FontTextViewStyle"
+                android:id="@+id/no_9"
+                android:layout_width="@dimen/number_width"
+                android:layout_height="@dimen/number_width"
+                android:layout_margin="10dp"
+                android:background="@drawable/white_circular_border"
+                android:gravity="center"
+                android:text="9"
+                android:textColor="#fff"
+                android:textSize="23dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.pixplicity.fontview.FontAppCompatTextView
+            style="@style/FontTextViewStyle"
+            android:id="@+id/no_0"
+            android:layout_width="@dimen/number_width"
+            android:layout_height="@dimen/number_width"
+            android:layout_margin="10dp"
+            android:background="@drawable/white_circular_border"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="23dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="serif"
+        android:text="Cancel"
+        android:visibility="gone"
+        android:textColor="@color/ivory"
+        android:textSize="14dp" />
+
+</LinearLayout>

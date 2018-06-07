@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="odt.aliqornan.uangku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_uangku"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.Splash"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemes"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity>
+
+        <activity
+            android:name=".ui.Introduction"
+            android:theme="@style/AppThemes"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.FingerPrint"
+            android:theme="@style/AppThemes"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".SampleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".ui.TransactionActivity"
+            android:theme="@style/AppThemes"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.Categories"
+            android:theme="@style/AppThemes"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".ui.SettingsActivity"/>
+
+        <activity android:name=".ui.AddValue"
+            android:theme="@style/AppThemes"
+            android:screenOrientation="portrait" />/>
+
+        <activity
+            android:name=".ui.PatternLockActivity"
+            android:label="@string/pattern_lock_title"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.SettingsActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.SetPatternActivity"
+            android:label="@string/set_pattern_title"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.PatternLockActivity" />
+        </activity>
+
+        <activity
+            android:name=".ui.ConfirmPatternActivity"
+            android:label="@string/confirm_pattern_title"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".ui.ResetPatternActivity"
+            android:label="@string/reset_pattern_title"
+            android:launchMode="singleTop" />
+    </application>
+
+</manifest>

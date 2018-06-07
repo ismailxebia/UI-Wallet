@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2015 Zhang Hai <Dreaming.in.Code.ZH@Gmail.com>
+  ~ All Rights Reserved.
+  -->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:title="@string/pref_title_pattern_lock">
+        <intent
+            android:targetPackage="odt.aliqornan.uangku"
+            android:targetClass="odt.aliqornan.uangku.ui.PatternLockActivity" />
+    </Preference>
+
+    <Preference
+        android:title="@string/pref_title_about">
+        <intent
+            android:targetPackage="odt.aliqornan.uangku"
+            android:targetClass="odt.aliqornan.uangku.ui.AboutActivity" />
+    </Preference>
+</PreferenceScreen>

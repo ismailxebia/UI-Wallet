@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/arrow_bottom_left"
+        android:shortcutDisabledMessage="@string/disable_msg"
+        android:shortcutLongLabel="@string/income"
+        android:shortcutId="income"
+        android:shortcutShortLabel="@string/income">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="odt.aliqornan.uangku.ui.TransactionActivity"
+            android:targetPackage="odt.aliqornan.uangku"/>
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/arrow_top_right"
+        android:shortcutDisabledMessage="@string/disable_msg"
+        android:shortcutLongLabel="@string/expense"
+        android:shortcutId="expense"
+        android:shortcutShortLabel="@string/expense">
+        <intent
+            android:action="RANDOM"
+            android:targetClass="odt.aliqornan.uangku.ui.TransactionActivity"
+            android:targetPackage="odt.aliqornan.uangku"/>
+    </shortcut>
+
+</shortcuts>
